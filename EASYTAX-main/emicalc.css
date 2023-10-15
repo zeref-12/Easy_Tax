@@ -1,0 +1,35 @@
+body{
+background-color: #6CB4EE;         
+/* background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+background-image:url(images/mainlogo.png);
+background-size:cover;
+opacity: 10;
+}
+h2{
+  text-align: center;
+ 
+}
+form{
+  font-weight: bolder;
+  font-size: larger;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+   
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    background: #fc5417;
+  }
+  button{
+    background: hsl(16, 100%, 66%);
+  }

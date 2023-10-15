@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gstcalc.css">
+</head>
+<body>
+    <h1>GST CALCULATOR</h1>
+    <table>
+        <tr>
+            <td>Product Name</td>
+            <td>
+                <input type="text" id="pn">
+            </td>
+        </tr>
+        <tr>
+            <td>Product Price</td>
+            <td>
+                <input type="text" id="pp">
+            </td>
+        </tr>
+        <tr>
+            <td>Product Quantity</td>
+            <td>
+                <input type="text" id="pq">
+            </td>
+        </tr>
+        <tr>
+            <td>Rate</td>
+            <td>
+                <select name="" id="rate">
+                    <option value="5">5%</option>
+                    <option value="12">12%</option>
+                    <option value="18">18%</option>
+                    <option value="28">28%</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Intrasate/InterState</td>
+            <td>
+                <select name="" id="ps">
+                    <option value="0">Intrasate</option>
+                    <option value="1">InterState</option>
+                  
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="gstCalc()">Calculate GST</button>
+            </td>
+        </tr>
+    </table>
+    <div class="gstOutput">
+    <table>
+        <tr>
+            <td>Product Name</td>
+            <td>Product Price</td>
+            <td>Product Quantity</td>
+            <td>Amount</td>
+        </tr>
+        
+        <tr id="tr1">
+
+        </tr>
+        <tr id="tr2">
+
+        </tr>
+        <tr id="tr3">
+
+        </tr>
+        <tr id="tr4">
+
+        </tr>
+       
+    </table>
+    </div>
+    <script src="gstcalc.js"></script>
+</body>
+</html>

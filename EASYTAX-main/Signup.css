@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    height: 100vh;
+   
+}
+#boxlogin{
+    padding:30px;
+    background-color:#192F42;
+    width: 90%;
+    margin-left: 20rem;
+    margin-top:100px;
+    color:#fff;
+}
+
+button{
+    margin-top:20px;
+}
+
+
+h1{
+    text-transform: uppercase;
+}
+
+input{
+    padding:5px;
+    width:200px;
+}
+
+button{
+    width:200px;
+    color: rgb(12, 13, 13);
+    background-color: aquamarine;
+}
+.container{
+    height: 100vh;
+}

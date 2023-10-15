@@ -1,0 +1,27 @@
+body{
+  background-color: #6CB4EE;         
+  /* background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+  background-image:  url(images/mainlogo.png);
+  background-size:cover;
+  opacity: 10;
+  }
+
+.gstOutput{
+    background: aquamarine;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  h1{
+    text-align: center;
+  }
+  button{
+    background: #00CCFF;
+  }
